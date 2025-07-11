@@ -59,14 +59,16 @@ main{
 }
 .action{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 80px;
+    
     
     
    
 }
 .regular{
     font-weight: 100;
+    /* width: 40%; */
     
 }
 .section{
@@ -79,10 +81,15 @@ main{
 }
 .productive{
    text-align: center;
+   background-color: rgba(78, 71, 255, 0.1);
+   padding: 10px;
+   margin: 40px 0;
 }
 .Users-section{
     display: flex;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    
 }
 /* touch style */
 .touch{
@@ -115,8 +122,17 @@ h1{
 footer{
     text-align: center;
 }
-h1{
-    color: #4E47FF;
+footer h1,.Users-section h1 {
+     color: #4E47FF; 
+}
+footer ul li{
+    list-style: none;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
 }
 
 
