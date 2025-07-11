@@ -7,8 +7,8 @@
   font-variation-settings:
     "wdth" 100;
     color: #4E47FF;
-}
-.open-sans-norm{
+}    
+.open-sans-norm {
   font-family: "Open Sans", sans-serif;
   }
 body{
@@ -83,6 +83,40 @@ main{
 .Users-section{
     display: flex;
     text-align: center;
+}
+/* touch style */
+.touch{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.touch-column{
+    width: 50%;
+}
+.touch input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+h1{
+    font-weight: 800;
+}
+.touch button{
+    width: 100%;
+    padding: 10px 20px;
+}
+/* footer style */
+footer{
+    text-align: center;
+}
+h1{
+    color: #4E47FF;
 }
 
 
